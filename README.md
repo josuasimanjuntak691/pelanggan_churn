@@ -1,1 +1,1 @@
-# pelanggan_churn
+# customer_churn
