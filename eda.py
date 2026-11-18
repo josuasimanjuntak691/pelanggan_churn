@@ -5,6 +5,7 @@ import seaborn as sns
 import plotly.express as px
 from PIL import Image
 
+
 def run():
     #membuat judul
     st.title('aplikasi prediksi pembatalan layanan')
@@ -21,7 +22,7 @@ def run():
 
 
     #memasukkan data
-    df = pd.read_csv(r"C:\Users\sonda\Downloads\WA_Fn-UseC_-Telco-Customer-Churn.csv")
+    df = pd.read_csv(r"C:\Users\sonda\Downloads\P0-Github-Starter-FTDS-046-HCK-josuasimanjuntak691\pelanggan_churn\data.csv")
     st.dataframe(df)
 
 
